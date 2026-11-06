@@ -5,7 +5,7 @@
 
 ## 安装
 
-需要 DSH 的 `web` profile 和 `0.2.1-rc.5` 或兼容版本。
+需要 DSH 的 `web` profile 和 `0.2.2-rc.1` 或兼容版本。
 
 ```bash
 dsh plugin --profile web add github:Sunhelter/dsh-session-bridge
