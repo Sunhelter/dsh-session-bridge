@@ -1,0 +1,24 @@
+{
+  "name": "@local/dsh-session-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Token-guarded HTTP bridge for external agents: list Workspaces, create a Session, post the first prompt.",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}
